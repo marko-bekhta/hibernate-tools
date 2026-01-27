@@ -35,6 +35,11 @@ This module contains a few general purpose utilities that are used in the other 
 * [**hibernate-tools-test**:](./test)
 The test module is a multi module in itself that contains tests targeting different databases as well as no database tests.
 
+
+
+
+
+
 ## Contributing
 
 If you run into errors, have ideas on how to improve the project or if you just want to collaborate, checkout the [contribution guide](./contribute.md).
