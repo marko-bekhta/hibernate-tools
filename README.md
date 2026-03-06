@@ -16,6 +16,9 @@
 
 [![Hibernate](https://static.jboss.org/hibernate/images/hibernate_200x150.png)](https://tools.hibernate.org)
 
+
+
+
 # Hibernate Tools - Tooling for your Hibernate Projects
 
 Working with Hibernate is very easy and developers enjoy using the APIs and the query language. Even creating mapping metadata is not an overly complex task once you've mastered the basics. Hibernate Tools makes working with Hibernate or JPA even more pleasant.
