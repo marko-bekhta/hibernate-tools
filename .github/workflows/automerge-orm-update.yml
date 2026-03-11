@@ -2,11 +2,6 @@
 name: Dependabot auto-merge Hibernate ORM update
 on:
   pull_request:
-    branches:
-      # Only include the branches for which we want
-      # the automerge capabilities to be applied:
-      - '7.2'
-      - '6.6'
 
 
 permissions:
@@ -16,8 +11,7 @@ permissions:
 jobs:
   dependabot-auto-merge:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.user.login == 'dependabot[bot]'
-    # && github.repository == 'hibernate/hibernate-tools'
+    if: github.event.pull_request.user.login == 'dependabot[bot]' && github.repository == 'marko-bekhta/hibernate-tools'
     steps:
       - name: Dependabot metadata
         id: metadata
